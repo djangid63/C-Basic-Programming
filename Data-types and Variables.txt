@@ -1,0 +1,84 @@
+
+#include <stdio.h>
+
+int main()
+{
+    // A
+    int a = -56;
+    printf("%d", a);
+    
+    printf("\n");
+    
+    // B
+    
+      int b = 'r';
+    printf("%c", b);
+    
+     printf("\n");
+     
+    // C
+      float c = 2.532;
+    printf("%f", c);
+    
+      printf("\n");
+
+// D
+
+    int d = 34;
+    float d1 = -2.34;
+    char d2 = 't';
+      
+    printf("%d\n", d);
+    printf("%f\n", d1);
+    printf("%c\n", d2);
+    
+    // E
+    
+      int e = 34;
+      int e1 = 89;
+      int add = e + e1;
+    printf("%d", add);
+    
+     printf("\n");
+     
+    //  F
+     
+    int f = 23;
+    int f1 = 5;
+    
+    int sub = f - f1;
+    printf("%d", sub);
+
+    printf("\n");
+    
+    //  G
+ 
+    int g = 56;
+    int g1 = 2;
+    
+    int multi = g * g1;
+    printf("%d", multi);
+    
+    printf("\n");
+    
+    // H
+    
+     int h = 45;
+    int h1 = 5;
+    
+    int divide = h / h1;
+    printf("%d", divide);
+    
+     printf("\n");
+     
+    //  I
+    
+    int i = 23;
+    int i1 = 89;
+    int i2 = 12;
+    int i3 = 56;
+    
+    int addition = printf("%d" , i + i1 + i2 + i3);
+ 
+    return 0;
+}

@@ -1,0 +1,214 @@
+#include <stdio.h>
+
+int main() {
+	// SOLUTION-1--------------------------
+	// int physics, chemistry, biology, maths, computerApplication;
+	// float total, percentage;
+	// char grade;
+
+	// printf("Enter physics marks: ");
+	// scanf("%d", &physics);
+	// printf("Enter chemistry marks: ");
+	// scanf("%d", &chemistry);
+	// printf("Enter biology marks: ");
+	// scanf("%d", &biology);
+	// printf("Enter maths marks: ");
+	// scanf("%d", &maths);
+	// printf("Enter computerApplication marks: ");
+	// scanf("%d", &computerApplication);
+
+	// total = physics + chemistry + biology + maths + computerApplication;
+	// percentage = (total / 500.0) * 100;
+
+	// if (percentage < 40) {
+	//     grade = 'F';
+	// } else if (percentage >= 40 && percentage < 60) {
+	//     grade = 'E';
+	// } else if (percentage >= 60 && percentage < 70) {
+	//     grade = 'D';
+	// } else if (percentage >= 70 && percentage < 80) {
+	//     grade = 'C';
+	// } else if (percentage >= 80 && percentage < 90) {
+	//     grade = 'B';
+	// } else if (percentage >= 90 && percentage <= 100) {
+	//     grade = 'A';
+	// } else {
+	//     printf("Invalid value\n");
+	//     return 1;
+	// }
+
+	// printf("\nTotal Marks: %f\n", total);
+	// printf("Percentage: %f\n", percentage);
+	// printf("Grade: %c\n", grade);
+
+// SOLUTION-2--------------------------
+// int num;
+// printf("Enter any number to check if it's a negative,positive or zero");
+// scanf("%d", &num);
+// if(num < 0){
+//     printf("It's a negative value");
+
+// }else if(num > 0){
+//     printf("It's a positive value");
+// }else if(num == 0){
+//     printf("It's a zero value");
+// }else{
+//     printf("Enter a valid number");
+// }
+
+// SOLUTION-3--------------------------
+
+// int num1,num2,num3;
+// printf("Enter num1 value ");
+// scanf("%d", &num1);
+// printf("Enter num1 value ");
+// scanf("%d", &num2);
+// printf("Enter num1 value ");
+// scanf("%d", &num3);
+
+
+// if(num1 > num2 && num1 && num3){
+//     printf("num1 is greater than num2 and num3");
+// }else if(num2 > num1 && num2 > num3){
+//     printf("num2 is greater than num1 and num3");
+// }else{
+//     printf("num3 is greater than num1 and num2");
+// }
+
+// SOLUTION-4--------------------------
+
+// int pie = 3.14159;
+// int radius, diameter, circumference, area;
+// printf("Enter radius of the circle ");
+// scanf("%d", &radius);
+
+// diameter = 2 * radius;
+// circumference = 2 * pie * radius;
+// area = pie * (radius * radius);
+
+// printf("Diameter : %d\n", diameter);
+// printf("Circumference : %d\n", circumference);
+// printf("area : %d\n", area);
+
+// SOLUTION-5--------------------------
+
+//   float basicSalary, hra, da, grossSalary;
+
+//     printf("Enter the basic salary of the employee: ");
+//     scanf("%f", &basicSalary);
+
+
+//     if (basicSalary <= 10000) {
+//         hra = basicSalary * 0.20;
+//         da = basicSalary * 0.80;
+//     } else if (basicSalary <= 20000) {
+//         hra = basicSalary * 0.25;
+//         da = basicSalary * 0.90;
+//     } else {
+//         hra = basicSalary * 0.30;
+//         da = basicSalary * 0.95;
+//     }
+
+
+//     grossSalary = basicSalary + hra + da;
+
+//     printf("Basic Salary: %f\n", basicSalary);
+//     printf("HRA: %f\n", hra);
+//     printf("DA: %f\n", da);
+//     printf("Gross Salary: %f\n", grossSalary);
+
+// SOLUTION-6--------------------------
+
+// 	int units;
+// 	float bill, surcharge, totalBill;
+
+
+// 	printf("Enter the number of electricity units consumed: ");
+// 	scanf("%d", &units);
+
+
+// 	if (units <= 50) {
+// 		bill = units * 0.50;
+// 	} else if (units <= 150) {
+// 		bill = 50 * 0.50 + (units - 50) * 0.75;
+// 	} else if (units <= 250) {
+// 		bill = 50 * 0.50 + 100 * 0.75 + (units - 150) * 1.20;
+// 	} else {
+// 		bill = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;
+// 	}
+
+
+// 	surcharge = bill * 0.20;
+
+
+// 	totalBill = bill + surcharge;
+
+// 	printf("Total Electricity Bill: Rs. %f\n", totalBill);
+
+
+// SOLUTION-7--------------------------
+
+// 	char word;
+// 	printf("Enter any word to start ");
+// 	scanf("%c", &word);
+// 	if( word == 'q' ||word == 'w' ||word == 'e'|| word== 'r'|| word== 't'|| word== 'y'|| word== 'u' || word== 'i' || word== 'o' || word== 'p' ) {
+// 		printf("Upper line");
+// 	}else if( word == 'a' ||word == 's' ||word == 'd'|| word== 'f'|| word== 'g'|| word== 'h'|| word== 'j' || word== 'k' || word== 'l' ){
+// 	    printf("Lower line");
+// 	}else if(word == 'z' ||word == 'x' ||word == 'v'|| word== 'b'|| word== 'n'|| word== 'm'){
+// 	    printf("Lower line");
+// 	}else{
+// 	    printf("Input is not valid");
+// 	}
+
+// SOLUTION-8--------------------------
+// 	int num1,num2,num3;
+// 	printf("Enter num1 ");
+// 	scanf("%d", &num1);
+	
+// 	printf("Enter num2 ");
+// 	scanf("%d", &num2);
+
+
+// num3 = num1;
+// num1 = num2;
+// num2 = num3;
+// printf("%d %d" ,num1, num2);
+
+
+// SOLUTION-9--------------------------
+
+// 	int num1,num2;
+// 	printf("Enter num1 ");
+// 	scanf("%d", &num1);
+	
+// 	printf("Enter num2 ");
+// 	scanf("%d", &num2);
+
+// num1 = num1 + num2; 
+// num2 = num1-num2; 
+// num1 = num1 - num2;
+
+// printf("Num1 :%d\n", num1);
+// printf("Num2 :%d\n", num2);
+
+// SOLUTION-10--------------------------
+
+// char word;
+// printf("Enter any word ");
+// scanf("%c", &word);
+
+// if(word == 'a'){
+//     printf("Apple");
+// }else if(word =='b'){
+//     printf("Ball");
+// }else if(word == 'c'){
+//     printf("Cat");
+// }else if(word == 'd'){
+//     printf("Dog");
+// }else{
+//     printf("Invalid value");
+}
+
+	return 0;
+}

@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main()
+{
+	printf("Sawp value Without third value");
+	printf("\n");
+	printf("\n");
+	
+	int cricketBalls=5;
+	int basketBalls=10;
+
+	printf("the  value of cricketBalls is :%d\n",cricketBalls);
+	printf("the  value of basketBalls is :%d\n",basketBalls);
+	printf("\n");
+
+	cricketBalls = cricketBalls + basketBalls;
+
+	basketBalls = cricketBalls - basketBalls;
+
+	cricketBalls = cricketBalls - basketBalls;
+
+	printf("the swap value of cricketBalls is :%d\n",cricketBalls);
+	printf("the swap value of basketBalls is :%d\n",basketBalls);
+	printf("\n");
+
+	printf("Swap value with third value");
+	printf("\n");
+	printf("\n");
+	
+	int cricketBallPrice = 300;
+	int basketBallPrice  = 1000;
+	int lowestPrice;
+
+	printf("the  value of cricketBalls is :%d\n",cricketBallPrice);
+	printf("the  value of basketBalls is :%d\n",basketBallPrice);
+	printf("\n");
+
+	lowestPrice = cricketBallPrice;
+	cricketBallPrice = basketBallPrice;
+	basketBallPrice = lowestPrice;
+
+	printf("the swap value of cricketBallPrice is :%d\n",cricketBallPrice);
+	printf("the swap value of basketBallPrice is :%d\n",basketBallPrice);
+
+	return 0;
+}

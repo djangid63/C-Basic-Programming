@@ -1,0 +1,214 @@
+#include <stdio.h>
+
+// 56*34+12/2-13
+
+// -----------------------------------------------------
+// 1.2*6.7-4.5/2
+
+// -------------------------------------------
+// 1.6*(12-2)/2+7.8-1.5
+
+// -----------------------------------------------
+// 4.5*1.2-(82/2)-5.6 +1.234
+
+// -----------------------------------------------
+// 8*1+(4-2)/1+6
+
+// -----------------------------------------------
+// 3.4+1.2*(3.7-1.2)/2+6.8
+
+// -----------------------------------------------
+// 8.9*1.67-(6.21-5.6)+7.8-34 +157
+#include <stdio.h>
+
+int main()
+{
+	// Q-1,2,3,4
+
+	// int a;
+	// printf("Enter the value of A");
+	// scanf("%d", &a);
+
+	// char b;
+	// printf("Enter the value of B");
+	// scanf(" %c", &b);
+
+	// float c;
+	// printf("Enter the value of c");
+	// scanf(" %f", &c);
+
+	// Q - 4,5,6,7,8,9,10
+// 	int d;
+// 	int d1;
+// 	int d2;
+// 	int d3;
+// 	int d4;
+// 	int d5;
+
+
+// 	printf("Enter the value of d ");
+// 	scanf(" %d", &d);
+// 	printf("Enter the value of d1 ");
+// 	scanf(" %d", &d1);
+// 	int resultAdd = d + d1;
+// 	int resultSub = d - d1;
+// 	int resultMultiply = d * d1;
+// 	int divide = d / d1;
+
+// 	printf("Add %d\n",resultAdd);
+// 	printf("Sub %d\n", resultSub);
+// 	printf("Multiply %d\n", resultMultiply);
+// 	printf("Divide %d\n", divide);
+
+// 	printf("Enter d2 ");
+// 	scanf(" %d", &d2);
+// 	printf("Enter d3 ");
+// 	scanf(" %d", &d3);
+// 	printf("Enter d4 ");
+// 	scanf(" %d", &d4);
+// 	printf("Enter d5 ");
+// 	scanf ("%d", &d5);
+
+// 	int total = d + d1 + d2 + d3 + d4;
+// 	printf("Total %d\n", total);
+
+// Q-11--  56*34+12/2-13
+
+// int totalOf11 = d * d1 + d3 / d4 - d5;
+// 	printf("TotalOf11 %d\n", totalOf11);
+
+
+
+
+
+
+
+// -----------------------------------------------------
+// Q-12--  1.2*6.7-4.5/2
+// 	float df1, df2, df3, df4;
+
+// 	printf("Enter df1: ");
+// 	scanf("%f", &df1);
+
+// 	printf("Enter df2: ");
+// 	scanf("%f", &df2);
+
+// 	printf("Enter df3: ");
+// 	scanf("%f", &df3);
+
+// 	printf("Enter df4: ");
+// 	scanf("%f", &df4);
+
+// 	printf("Enter d4: ");
+// 	scanf("%d", &d4);
+
+
+// 	float totalOf12 = df1 * df2 - df3 / d4;
+// 	printf("TotalOf12 %f\n", totalOf12);
+
+// -------------------------------------------
+// 13--   1.6*(12-2)/2+7.8-1.5
+// 	float df1, df2, df3, df4;
+// 	int d1, d2, d3;
+
+// 	printf("Enter df1: ");
+// 	scanf("%f", &df1);
+
+// 	printf("Enter d1: ");
+// 	scanf("%d", &d1);
+
+// 	printf("Enter d2: ");
+// 	scanf("%d", &d2);
+
+// 	printf("Enter d3: ");
+// 	scanf("%d", &d3);
+
+// 	printf("Enter df2: ");
+// 	scanf("%f", &df2);
+
+// 	printf("Enter df3: ");
+// 	scanf("%f", &df3);
+
+// 	float totalOf13 = df1 * (d1 - d2) / d3 + df2 - df3;
+// 	printf("TotalOf13 %f\n", totalOf13);
+
+
+// write a c program and check number is greater than 10 ? 
+
+// -------------------------------------------------------
+// write a c program and check number is greater than 50 ? 
+
+// -------------------------------------------------------
+// write a c program and check number is less than 46? 
+
+// -------------------------------------------------------
+// write a c program to check a number is divisible by 5 or not ?
+// -------------------------------------------------------
+// write a c program to check a number is is even or odd ?
+
+// -------------------------------------------------------
+// write a program and check a number is positive integer and negative integer ? 
+// Q-1
+// int num;
+// scanf("%d", &num);
+
+// if( num > 10){
+//     printf("num is greater then 10");
+// }else{
+//     printf("num is less than 10");
+// }
+
+// Q-2
+// int num;
+// scanf("%d", &num);
+
+// if( num > 50){
+//     printf("num is greater then 50");
+// }else{
+//     printf("num is less than 50");
+// }
+
+// Q-3
+
+// int num;
+// scanf("%d", &num);
+
+// if( num < 46){
+//     printf("num is less then 46");
+// }else{
+//     printf("num is greater than 46");
+// }
+
+// Q-5
+// int num;
+// scanf("%d", &num);
+
+// if( num % 5 == 0){
+//     printf("num is divisible by 5");
+// }else{
+//     printf("num is not divisible by 5");
+// }
+
+
+// Q-6
+// int num;
+// scanf("%d", &num);
+
+// if( num % 2 == 0){
+//     printf("num is even");
+// }else{
+//     printf("num is not a even number");
+// }
+
+// Q-7
+// int num;
+// scanf("%d", &num);
+
+// if( num >= 0){
+//     printf("num is a positive int");
+// }else{
+//     printf("num is negative int");
+// }
+
+
+}

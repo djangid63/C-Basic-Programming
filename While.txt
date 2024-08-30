@@ -1,0 +1,423 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+//
+
+// Question - 1---
+
+// 1--->5 number print
+
+// Solution - 1---
+
+// 	int a=1;
+// 	while(a<=5) {
+// 		printf("%d ",a);
+// 		a++;
+// 	}
+
+
+// -------------------------------------------
+
+//
+
+// Question - 2
+
+// 1--------->10 number print (dry run)
+
+
+// Solution - 2
+
+// int a = 1;
+// while(a <= 10) {
+//     printf("%d\n", a);
+//     a++;
+// }
+// -------------------------------------------
+//
+
+// Question - 3
+
+// 1---->100 number print
+
+// Solution -3
+
+// int a = 1;
+// while(a <= 100){
+//     printf("%d\n", a);
+//     a++;
+// }
+
+// -------------------------------------------
+
+//
+
+// Question -5
+
+// 34--->89 number print
+
+// Solution -5
+
+// int a = 34;
+
+// while(a<=89){
+//     printf("%d\n", a);
+//     a++;
+// }
+// -------------------------------------------
+//
+
+// Question - 6
+
+// 5-------------->1 number print
+
+// Solution - 6
+// int a = 5;
+
+// while(a>=1){
+//     printf("%d\n", a);
+//     a--;
+// }
+
+// -------------------------------------------
+//
+
+// Question - 7
+
+// 10-------------->1 number print (dry run)
+
+// Solution - 7
+// int a = 10;
+
+// while(a>=1){
+//     printf("%d\n", a);
+//     a--;
+// }
+
+
+// -------------------------------------------
+//
+
+// Question - 8
+
+// 100-------------->1 number print
+
+// Solution - 8
+// int a = 100;
+
+// while(a>=1){
+//     printf("%d\n", a);
+//     a--;
+// }
+
+
+// -------------------------------------------
+//
+
+// Question - 9
+
+// 56-------------->23 number print
+
+// Solution - 9
+// int a = 56;
+
+// while(a>=23){
+//     printf("%d\n", a);
+//     a--;
+// }
+
+// ---------------------------------------------------
+// 		EVEN NUMBER
+
+//
+
+// Question - 10
+
+// 1--->5 number print
+// int a =1;
+// while(a<=5){
+//     if(a % 2 == 0){
+//         printf("%d\n", a);
+//     }
+//     a++;
+// }
+// Solution - 10
+
+// -------------------------------------------
+
+//
+
+// Question - 11
+
+// 1--------->10 number print (dry run)
+
+// DONE
+
+// Solution - 11
+
+
+// -------------------------------------------
+//
+
+// Question - 12
+
+// 1---->100 number print
+
+// Solution - 12
+
+// int a = 1;
+// while(a <= 100 ){
+//   if(a % 2 == 0){
+//         printf("%d\n", a);
+//     }
+//      a++;
+// }
+
+// -------------------------------------------
+
+//
+
+// Question - 13
+
+// 34--->89 number print
+//
+
+// Solution - 13
+
+// int a = 34;
+
+// while(a <= 89){
+//      if(a % 2 == 0){
+//         printf("%d\n", a);
+//     }
+//     a++;
+// }
+
+// -------------------------------------------
+//
+
+// Question - 14
+
+// 5-------------->1 number print
+
+// Solution - 14
+
+// int a = 5;
+
+// while(a >= 1){
+//     if(a % 2 == 0){
+//         printf("%d\n", a);
+//     }
+//     a--;
+// }
+
+// -------------------------------------------
+//
+
+// Question - 15
+
+// 10-------------->1 number print (dry run)
+
+// Solution - 15
+// 	int a = 10;
+// 	while(a >= 1) {
+
+// 		if(a % 2 == 0) {
+// 			printf("%d\n", a);
+// 		}
+// 		a--;
+// 	}
+// -------------------------------------------
+//
+
+// Question - 16
+
+// 100-------------->1 number print
+
+// Solution - 16
+
+// 	int a = 100;
+// 	while(a >= 1) {
+
+// 		if(a % 2 == 0) {
+// 			printf("%d\n", a);
+// 		}
+// 		a--;
+// 	}
+// -------------------------------------------
+//
+
+// Question - 17
+
+// 56-------------->23 number print
+// 	int a = 56;
+// 	while(a >= 26) {
+
+// 		if(a % 2 == 0) {
+// 			printf("%d\n", a);
+// 		}
+// 		a--;
+// 	}
+// Solution - 17
+
+// ---------------------------------------------------
+// 		ODD NUMBERS
+//
+
+// Question - 18
+
+// 1--->5 number print
+// int a = 5;
+
+// while(a >= 1){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a--;
+// }
+
+// Solution - 18
+
+// -------------------------------------------
+//
+
+// Question - 19
+
+// 1--------->10 number print (dry run)
+
+// Solution - 19
+// int a = 1;
+
+// while(a <= 10){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a++;
+// }
+// -------------------------------------------
+//
+
+// Question - 20
+
+// 34-->89 number print
+
+// Solution - 20
+// int a = 34;
+
+// while(a <= 89){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a++;
+// }
+// -------------------------------------------
+//
+
+// Question - 21
+
+// 5-------------->1 number print
+
+// Solution - 21
+// int a = 5;
+// while(a >= 1){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a--;
+// }
+
+// -------------------------------------------
+//
+
+// Question - 22
+
+// 10-------------->1 number print (dry run)
+
+// Solution - 22
+// int a = 10;
+// while(a >= 1){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a--;
+// }
+
+
+// -------------------------------------------
+//
+
+// Question - 23
+
+// 56-------------->23 number print
+
+
+
+// Solution - 23
+// int a = 56;
+// while(a >= 23){
+//     if(a % 2 != 0){
+//         printf("%d\n", a);
+//     }
+//     a--;
+// }
+// ---------------------------------------------------
+//
+
+// Question - 24
+
+    char word;
+    printf("Enter a character (a, b, c, d): ");
+    scanf("%c", &word);
+
+    // a: 1--->5 number print
+    if(word == 'a') {
+        int one = 1;
+        while (one <= 5) {
+            printf("%d\n", one);
+            one++;
+        }
+    }
+    // b: 45--->34 number print
+    else if(word == 'b') {
+        int fourFive = 45;
+        while(fourFive >= 34) {
+            printf("%d\n", fourFive);
+            fourFive--;
+        }
+    }
+    // c: 4-->66 even number print
+    else if(word == 'c') {
+        int num = 4;
+        while(num <= 66) {
+
+            if(num % 2 ==0){
+                printf("%d\n", num);
+            }
+            num++;
+        }
+    }
+    // d: 55--->35 odd number print
+    else if(word == 'd') {
+        int num = 55;
+        while(num >= 35) {
+            if(num % 2 != 0){
+                          printf("%d\n", num);  
+            }
+
+            num--;
+        }
+    }
+
+
+
+
+	return 0;
+}
