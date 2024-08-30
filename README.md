@@ -20,7 +20,7 @@ To get started with these programs, you need to have a C compiler installed on y
 
 ### Cloning the Repository
 
-``sh
+```sh
 git clone https://github.com/your-username/c-basic-programming.git
 cd c-basic-programming
 
